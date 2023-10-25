@@ -7,4 +7,4 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 @app.route("/")
 @cross_origin()
 def helloWorld():
-  return "Hello, cross-origin-world!"from flask import Flask
+  return "Hello, cross-origin-world!"
